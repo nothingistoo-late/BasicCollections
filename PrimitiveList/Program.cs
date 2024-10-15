@@ -110,3 +110,4 @@ namespace PrimitiveList
 // List<Student> List<Lecturer>
 
 // nha sĩ khuyên dùng: list
+// pull or push??
