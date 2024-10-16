@@ -8,7 +8,7 @@ namespace PrimitiveList
         static void Main(string[] args)
         {
             // PlayWithPrimitiveListV2();
-            PlayWithStudentList();
+            PlayWithPrimitiveList();
         }
 
         static void PlayWithStudentList()
@@ -110,5 +110,4 @@ namespace PrimitiveList
 // List<Student> List<Lecturer>
 
 // nha sĩ khuyên dùng: list
-// pull or push??
-// new comment by web
+
