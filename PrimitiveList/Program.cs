@@ -8,7 +8,7 @@ namespace PrimitiveList
         static void Main(string[] args)
         {
             // PlayWithPrimitiveListV2();
-            PlayWithPrimitiveList();
+            PlayWithStudentList();
         }
 
         static void PlayWithStudentList()
@@ -16,9 +16,9 @@ namespace PrimitiveList
             // y chang với Cabinet<Student> tuSE = new Cabinet<>();
             // tuSE.add(new Student(){});
             List<Student> tuSE = new List<Student>();  
-            tuSE.Add(new Student() { });
-            tuSE.Add(new Student() { });
-            tuSE.Add(new Student() { });
+            tuSE.Add(new Student() { Id="SE1", Name="An Nguyen", Gpa=8.6, Yob=2004 });
+            tuSE.Add(new Student() { Id = "SE2", Name = "Binh Le", Gpa = 8.7, Yob = 2004 });
+            tuSE.Add(new Student() { Id = "SE3", Name = "Cuong Vo", Gpa = 8.8, Yob = 2004 });
 
             Console.WriteLine("The List of Students");
             foreach (var x in tuSE)
